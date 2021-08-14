@@ -7,6 +7,9 @@
 
    This is a public domain adventure and may not be sold for profit */
 
+#include <stdlib.h>    	/* for srand() */
+#include <time.h>		/* for time() */
+
 #define MOXIE	13
 #define AGILITY	15
 #define MAXKILL  7	/* The maximum number of UV's you can kill */

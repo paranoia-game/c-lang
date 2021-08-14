@@ -6,5 +6,5 @@ clean:
 	rm -f paranoia
 
 all paranoia: paranoia.c
-	gcc -o paranoia paranoia.c
+	gcc -w -o paranoia paranoia.c
 
